@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script src="js/js.js"> </script>
+</head>
+
+<body>
+  <form action="/houduan" method="POST">
+    <table>
+      <tr>
+        <th>姓名</th>
+        <th>学号</th>
+      </tr>
+      <tr>
+        <th><input id="name" name="姓名" value=""></input></th>
+        <th><input id="num" name="学号" value=""></input></th>
+      </tr>
+    </table>
+    <button type="submit" onclick="change()">添加</button>
+  </form>
+  <form action="/search">
+    <button type="submit">查询</button>
+  </form>
+</body>
+
+</html>
